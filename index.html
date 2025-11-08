@@ -38,9 +38,9 @@
   <main class="container mx-auto px-6 py-12">
     <section id="about" class="mb-24">
       <div
-        class="flex flex-col md:flex-row items-center bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden p-8">
+        class="flex flex-col md:flex-row items-center bg-white dark:bg-gray-800 rounded-tl-lg shadow-xl overflow-hidden p-8">
         <div class="md:w-1/3 mb-6 md:mb-0 md:mr-8">
-          <img src="" alt=""
+          <img src="/portfolio/img/logo.jpg" alt=""
             class="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto object-cover border-4 border-emerald-700 dark:border-emerald-500">
         </div>
         <div class="md:w-2/3 text-center md:text-left">
@@ -48,7 +48,7 @@
           <p class="text-xl text-emerald-700 dark:text-emerald-500 font-medium mb-4">Студент IT | Починаючий розробник
           </p>
           <p class="text-lg mb-6 leading-relaxed">
-            Привіт! Я, студент Черкаського Художньо-Технічног6о коледжу, навчаюся за спеціальністю "Комп'ютерні науки".
+            Привіт! Я, студент Черкаського Художньо-Технічного коледжу, навчаюся за спеціальністю "Комп'ютерні науки".
             Мене
             захоплює процес створення сайтів, тож я активно вивчаю FrontEnd. Я шукаю можливість застосувати свої знання
             на практиці в реальних проектах.
@@ -57,7 +57,7 @@
             Моя мета - отримати роботу в IT-компанії, де я зможу вчитися у досвідчених фахівців та
             зробити свій внесок у розвиток WEB-продуктів.
           </p>
-          <a href="#" class="btn-primary">
+          <a href="" download class="btn-primary">
             Завантажити моє резюме (CV)
           </a>
         </div>
@@ -116,10 +116,25 @@
     </section>
     <section id="contact">
       <h2 class="text-3xl font-bold text-center mb-12">Зв'яжіться зі мною</h2>
-
-      <div class="max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8">
-        <p class="text-center text-lg mb-6">
+      <p class="text-center text-lg mb-6">
           Я завжди відкритий до нових можливостей та цікавих проектів. Напишіть мені!</p>
+      <div class="contact-info flex flex-col m-auto max-w-2xl gap-5">
+        <div class="SocialNetworks p-5 mt-0 rounded-tl-lg shadow-md bg-gray-50 dark:bg-gray-800 text-xl
+            items-center flex justify-evenly lg:col-start-1 lg:row-start-2">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img class="max-w-[50px] rounded-full border-4 border-slate-300 hover:border-blue-700 hover:duration-400 hover:transition
+                    shadow-md" src="/portfolio/img/github.png">
+                </a>
+                <a href="https://ua.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="max-w-[50px] rounded-full border-4 border-slate-300 hover:border-blue-700 hover:duration-400 hover:transition
+                    shadow-md" src="/portfolio/img/linkedin.png">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img class="max-w-[50px] rounded-full border-4 border-slate-300 hover:border-blue-700 hover:duration-400 hover:transition
+                    shadow-md" src="/portfolio/img/telegram.png">
+                </a>
+            </div>
+          <div class=" bg-white dark:bg-gray-800 rounded-br-lg shadow-xl p-8">
         <div id="form-success-message"
           class="hidden p-4 mb-4 text-green-800 bg-green-100 dark:bg-green-900 dark:text-green-200 border border-green-300 dark:border-green-700 rounded-lg">
           Дякую! Ваше повідомлення було успішно відправлено.</div>
@@ -144,6 +159,8 @@
           </div>
         </form>
       </div>
+      </div>
+
     </section>
   </main>
   <footer class="bg-white dark:bg-gray-800 mt-24 py-8 shadow-inner">
