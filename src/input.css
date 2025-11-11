@@ -7,6 +7,6 @@ body {
   @apply transition-transform transform hover:scale-105 hover:bg-emerald-700;
 }
 .project-card {
-  @apply bg-white dark:bg-gray-800 h-[300px];
+  @apply bg-white dark:bg-gray-800 h-[350px];
   @apply flex flex-col rounded-lg overflow-hidden shadow-lg px-4;
 }
