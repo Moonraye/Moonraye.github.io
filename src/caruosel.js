@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initializeCarousel() {
   const track = document.getElementById('cards-track');
   const nextButton = document.getElementById('next-slide');
   const prevButton = document.getElementById('prev-slide');
@@ -47,4 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel();
   });
   updateCarousel();
-});
+}

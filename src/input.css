@@ -1,18 +1,16 @@
 @import "tailwindcss";
 body {
-  font-family: "Inter", sans-serif;
+  @apply bg-sky-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
 }
+@custom-variant dark (&:where(.dark, .dark *));
+
 .btn-primary {
   @apply inline-block bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg;
   @apply transition-transform transform hover:scale-105 hover:bg-emerald-700;
 }
 .project-card {
-<<<<<<< HEAD
-  @apply bg-white dark:bg-gray-800 h-[300px] flex flex-col rounded-lg overflow-hidden shadow-lg px-4;
-=======
   @apply bg-white dark:bg-gray-800 h-[350px];
   @apply flex flex-col rounded-lg overflow-hidden shadow-lg px-4;
->>>>>>> a91f58efb7f377f73999437938ad691c1d05ac42
 }
 .project-card .card-links{
   @apply justify-between items-center flex gap-4 mt-auto;

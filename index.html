@@ -11,12 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-sky-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+<body>
   <header class="bg-slate-100 dark:bg-slate-800 shadow-md sticky top-0 z-50">
     <div
-      class="container mx-auto px-6 py-3 flex flex-col items-center space-y-3 md:flex-row md:justify-between md:space-y-0">
+      class="container mx-auto px-6  flex flex-col items-center space-y-3 md:flex-row md:justify-between md:space-y-0">
       <div class="text-xl md:text-2xl font-bold text-emerald-700 dark:text-emerald-500">Oleh Zavediia</div>
-      <ul class="flex flex-row flex-wrap justify-center space-x-4 md:flex-nowrap md:space-x-6">
+      <ul class="flex flex-row flex-wrap gap-6 justify-center items-center space-x-4 md:flex-nowrap md:space-x-6">
         <li><a href="#about"
             class="text-sm md:text-base hover:text-emerald-600 dark:hover:text-emerald-400 font-medium">Biography</a>
         </li>
@@ -25,6 +25,9 @@
         </li>
         <li><a href="#contact"
             class="text-sm md:text-base hover:text-emerald-600 dark:hover:text-emerald-400 font-medium">Contacts</a>
+        </li>
+        <li>
+          <button class="theme-switch-btn"><img class="w-[75px] h-[75px] cursor-pointer" src="img/night-mode.png" alt="Switch Theme"></button>
         </li>
       </ul>
     </div>
@@ -234,7 +237,8 @@
       <p>2025 Oleh Zavediia | Built with Tailwind CSS</p>
     </div>
   </footer>
-  <script src="src/script.js"></script>
+  <script src="src/caruosel.js"></script>
+  <script src="src/theme-mod.js"></script>
+  <script src="src/main.js"></script>
 </body>
-
 </html>
