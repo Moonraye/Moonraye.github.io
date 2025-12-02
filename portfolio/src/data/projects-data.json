@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Tab System",
+        "description": "The Tab System project consists of interactive tabs. It allows you to organize content on a website. Implemented in HTML, JS, and Tailwind CSS. ",
+        "github": "https://github.com/Moonraye/tab-system",
+        "live": "https://moonraye.github.io/tab-system/"
+    },
+    {
+        "id": 2,
+        "title": "Cookie Checker",
+        "description": "The Cookie Popup project is a pop-up cookie consent window. It informs users about the use of cookies. Implemented in HTML, JS, and Tailwind CSS.  ",
+        "github": "https://github.com/Moonraye/cookie-popup",
+        "live": "https://moonraye.github.io/cookie-popup/"
+    },
+    {
+        "id": 3,
+        "title": "Textarea Character Counter",
+        "description": "The Textarea project is an input field with a character counter. It limits text length in real time. Implemented in HTML, JS, and Tailwind CSS.  ",
+        "github": "https://github.com/Moonraye/textarea",
+        "live": "https://moonraye.github.io/textarea/"
+    }
+]

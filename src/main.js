@@ -1,2 +1,0 @@
-initializeCarousel();
-initializeDarkMode();
